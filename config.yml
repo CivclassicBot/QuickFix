@@ -1,0 +1,5 @@
+minecart_teleport: true
+disabled_recipes:
+ - ENDER_CRYSTAL
+noplace:
+ - DRAGON_EGG

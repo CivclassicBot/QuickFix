@@ -1,0 +1,19 @@
+name: QuickFix
+main: com.biggestnerd.quickfix.QuickFix
+version: 1.4.0
+author: biggestnerd
+softdepend: [HiddenOre]
+commands:
+  qf:
+    description: "The core command for QuickFix"
+    usage: "Usage: /qf <option|reload> [value]"
+    permission: qf.admin
+  broadcast:
+    description: "Broadcast a message to the server"
+    usage: "Usage: /broadcast <message>"
+    permission: qf.admin
+    aliases: [bc, cast]
+permissions:
+  qf.admin:
+    description: Lets you use QF commands
+    default: op
